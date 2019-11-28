@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib -d dist",
+    "start": "npm run build && nodemon dist/index.js",
+    "serve": "node dist/index.js"
   },
   "author": "",
   "license": "ISC",
-  "mongoose": "^4.10.2",
   "devDependencies": {
-    "nodemon": "^2.0.1"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.7.12"
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
   }
 }
