@@ -4,16 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel lib -d dist",
-    "start": "npm run build && nodemon dist/index.js",
-    "serve": "node dist/index.js"
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahuha80/template_babel_nodejs.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahuha80/template_babel_nodejs/issues"
+  },
+  "homepage": "https://github.com/mahuha80/template_babel_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "pug": "^2.0.4",
+    "shortid": "^2.2.15"
+  },
   "devDependencies": {
-    "@babel/cli": "^7.7.4",
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4"
+    "nodemon": "^2.0.2"
   }
 }
