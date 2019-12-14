@@ -1,107 +1,24 @@
 {
   "users": [
     {
-      "name": "x",
-      "id": "JT3q9iCn"
+      "name": "admin",
+      "phone": "admin",
+      "id": "T0YB3eK6"
     },
     {
-      "name": "x",
-      "id": "xHc7liWu"
+      "name": "qeqwe",
+      "phone": "0823402",
+      "id": "7gLzhldG"
     },
     {
-      "name": "nguyen thanh hieu",
-      "id": "zP_WT8Aj"
-    },
-    {
-      "name": "nguyen thanh hieu",
-      "id": "mnOHVmNw"
-    },
-    {
-      "name": "nguyen thanh hieu",
-      "id": "kVklocoY"
-    },
-    {
-      "name": "nguyen thanh hieu",
-      "id": "YHyuuuAE"
-    },
-    {
-      "name": "doan xem 823023",
-      "id": "XAJ47Uh_"
-    },
-    {
-      "name": "vinhnt",
-      "id": "mF_S1695"
-    },
-    {
-      "name": "vinh",
-      "id": "zkK3Xc5u"
-    },
-    {
-      "name": "vinh",
-      "id": "ybP62bbk"
-    },
-    {
-      "name": "vinh",
-      "id": "g8vf-gjS"
-    },
-    {
-      "name": "vinh",
-      "id": "1kyTXmNj"
-    },
-    {
-      "name": "vinh",
-      "id": "b5iXEQnL"
-    },
-    {
-      "name": "vinh",
-      "id": "xH2Srnlq"
-    },
-    {
-      "name": "vinh",
-      "id": "d-fXMG-8"
-    },
-    {
-      "name": "vinh",
-      "id": "ZlebldmL"
+      "name": "nguyen thanh vinh",
+      "phone": "0987395971",
+      "id": "dXmaCbCB"
     },
     {
       "name": "nguyen thanh hai",
-      "id": "LQrabX-B"
-    },
-    {
-      "name": "nguyen thanh hai",
-      "id": "oXdmHW_-"
-    },
-    {
-      "name": "doanxem",
-      "id": "dWuLynup"
-    },
-    {
-      "name": "doanxem",
-      "id": "iT71aqQZ"
-    },
-    {
-      "name": "fssfd",
-      "id": "hMqYIxOa"
-    },
-    {
-      "name": "doan xem",
-      "id": "B4WLXJ_b"
-    },
-    {
-      "name": "asd",
-      "id": "VSgL5n9i"
-    },
-    {
-      "name": "dost",
-      "id": "aWiDS9pV"
-    },
-    {
-      "name": [
-        "admin",
-        "admin"
-      ],
-      "id": "8tjug4zS"
+      "phone": "923423-4",
+      "id": "9Gv_3bj4"
     }
   ]
 }
