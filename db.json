@@ -13,12 +13,24 @@
     {
       "name": "nguyen thanh vinh",
       "phone": "0987395971",
-      "id": "dXmaCbCB"
+      "id": "dXmaCbCB",
+      "email": "dracula01112000@gmail.com",
+      "password": "123456"
     },
     {
       "name": "nguyen thanh hai",
       "phone": "923423-4",
       "id": "9Gv_3bj4"
+    },
+    {
+      "name": "dracula01112000@gmail.com",
+      "phone": "123456",
+      "id": "rYs93ilB"
+    },
+    {
+      "name": "dracula01112000@gmail.com",
+      "phone": "43434",
+      "id": "UYn0OTxQ"
     }
   ]
 }
