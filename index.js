@@ -3,6 +3,7 @@ var bodyParser = require('body-parser');
 var cookieParser=require('cookie-parser');
 var port = 3000;
 var app = express();
+var authMiddleware=require('./middlewares/auth.middleware');
 app.use(express.static('public'))
 
 var userRoute = require('./routes/user.route')
@@ -17,7 +18,7 @@ app.get('/', (request, response) => {
         name: 'AAA'
     });
 })
-app.use('/users', userRoute);
+app.use('/users',authMiddleware.requireAuth, userRoute);
 app.use('/auth',authRoute)
 
 app.listen(port, () => {
