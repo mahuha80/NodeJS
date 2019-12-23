@@ -10,7 +10,6 @@ module.exports.postCreate = (req, res, next) => {
     if (errors.length) {
         res.render('users/create.pug', {
             errors: errors,
-            // values: req.body
         })
         return;
     }
